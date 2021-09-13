@@ -9,8 +9,7 @@ import { ExpressAdapter } from '@bull-board/express';
 
 const redisOptions = {
   port: 6379,
-  host: 'localhost',
-  password: '',
+  host: 'localhost'
 };
 
 const sleep = (t: number) => new Promise((resolve) => setTimeout(resolve, t * 1000));

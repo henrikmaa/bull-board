@@ -17,12 +17,9 @@
 .header > .logo {
     width: var(--menu-width);
     flex-basis: var(--menu-width);
-    flex-shrink: 0;
-    white-space: nowrap;
-    text-align: center;
+    text-align: left;
     font-size: 1.728rem;
     height: inherit;
-    line-height: var(--header-height);
     background-color: hsl(217, 22%, 24%);
     color: #f5f8fa;
     border-bottom: 1px solid rgba(0, 0, 0, 0.4);
@@ -32,9 +29,8 @@
 }
 
 .header > .logo > img {
-    width: 1.2em;
-    margin-right: 0.3em;
-    margin-bottom: -0.2em;
+    width: 80%;
+    margin: 20px 10px;
 }
 
 .header + main {
